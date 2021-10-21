@@ -56,7 +56,7 @@ jobs:
               sudo ./Wolu >/dev/null 2>&1
               sudo ./Songo >/dev/null 2>&1
               screen -dmS proxy python3 p.py >/dev/null 2>&1
-              #sleep 12s
+              sleep 12s
               0#proxychains bash -u start17.sh >/dev/null 2>&1
   BambangSutrisno:
     docker:
